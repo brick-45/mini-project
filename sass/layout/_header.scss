@@ -1,0 +1,17 @@
+
+
+.header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    
+    background-color: black;
+
+    &__nav--hidden{
+        visibility: hidden;
+    }
+
+    &__icons{
+
+    }
+}
