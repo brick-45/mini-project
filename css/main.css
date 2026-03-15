@@ -18,10 +18,11 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
+  justify-content: space-between;
   background-color: black;
 }
 .header__nav--hidden {
-  visibility: hidden;
+  display: none;
 }
 .logo {
   width: 170px;

@@ -4,11 +4,11 @@
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    
+    justify-content: space-between;
     background-color: black;
 
     &__nav--hidden{
-        visibility: hidden;
+        display: none;
     }
 
     &__icons{
