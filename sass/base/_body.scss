@@ -1,16 +1,15 @@
 .container{
   width: 100%;
-  padding: 0 15px;
+  padding: 0 30px;
   margin: 0 auto;
 
   &--header{
     display: flex;
     align-items: center;
-    width: 90%;
+    justify-content: space-between;
   }
 }
 
 body{
     font-family: DM Sans, sans-serif;
-    padding-block: 48px;
 }

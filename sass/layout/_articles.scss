@@ -1,0 +1,17 @@
+.articles{
+    display: flex;
+    flex-direction: column;
+    padding-block: 40px;
+    background-color: #010A20;
+
+    img{
+        width: 100%;
+        border-radius: 15px;
+    }
+}
+
+.walkway{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
