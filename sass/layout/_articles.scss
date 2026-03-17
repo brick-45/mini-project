@@ -14,4 +14,46 @@
     display: flex;
     flex-direction: column;
     gap: 32px;
+    margin-bottom: 55px;
+
+    &__title{
+        font-size: 40px;
+        font-weight: 700;
+        color: #fff;
+    }
+
+    &__text{
+        font-size: 16px;
+        font-weight: 400;
+        color: rgb(198, 198, 198);
+    }
+
+
+    &__btn{
+        @include button-phone;
+    }
+}
+
+
+.beach{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+
+    &__title{
+        font-size: 40px;
+        font-weight: 700;
+        color: #fff;
+    }
+
+    &__text{
+        font-size: 16px;
+        font-weight: 400;
+        color: rgb(198, 198, 198);
+    }
+
+
+    &__btn{
+        @include button-phone;
+    }
 }
