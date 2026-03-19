@@ -27,6 +27,7 @@
         }
     }
 
+
     &__img--tablet{
         display: none;
     }
@@ -35,14 +36,43 @@
         display: none;
     }
 
+    img{
+        @include border-radius-img;
+    }
+
 }
 
 .numbers{
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(2, 12, 33, 60%);
+    padding-inline: 32px;
+    padding-block: 72px;
+    gap: 70px;
+    text-align: center;
+    background-color: rgba(2, 12, 33, 90%);
     color: #fff;
 
+    &__title{
+        @include font-title;
+        width: 195px;
+        margin-inline: 10%;
+    }
+
+    &__text{
+        @include font-text;
+    }
 }
 
+.nummberContent{
+    margin-block: 40px;
+
+    &__title{
+        color: $redBrand;
+        @include font-title;
+    }
+
+    &__text{
+        @include font-text;
+    }
+}

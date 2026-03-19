@@ -6,7 +6,7 @@
 
     img{
         width: 100%;
-        border-radius: 15px;
+        @include border-radius-img;
     }
 }
 
@@ -17,14 +17,12 @@
     margin-bottom: 55px;
 
     &__title{
-        font-size: 40px;
-        font-weight: 700;
+        @include font-title;
         color: #fff;
     }
 
     &__text{
-        font-size: 16px;
-        font-weight: 400;
+        @include font-text;
         color: rgb(198, 198, 198);
     }
 
@@ -41,14 +39,12 @@
     gap: 32px;
 
     &__title{
-        font-size: 40px;
-        font-weight: 700;
+        @include font-title;
         color: #fff;
     }
 
     &__text{
-        font-size: 16px;
-        font-weight: 400;
+        @include font-text;        
         color: rgb(198, 198, 198);
     }
 
