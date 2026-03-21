@@ -74,5 +74,6 @@
 
     &__text{
         @include font-text;
+        color: $lightText;
     }
 }

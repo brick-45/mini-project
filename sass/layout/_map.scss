@@ -16,7 +16,7 @@
 
     &__text{
         @include font-text;
-        color: rgba(111, 119, 135, 1);
+        color: $paragraphDark;
     }
 
     &__btn{
