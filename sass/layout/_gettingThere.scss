@@ -1,0 +1,68 @@
+.gettingThere{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: rgba(220, 232, 242, 1);
+    padding-block: 30px;
+
+    &__title{
+        @include font-title;
+    }
+}
+
+.stepBystep{
+
+    &__ul{
+        list-style: none;
+        display: flex;
+        flex-direction: column;
+        margin-top: 45px;
+    }
+
+    &__li{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 26px;
+    }
+
+    &__paragraph{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        margin-bottom: 40px;
+
+        img{
+            margin-bottom: 40px;
+        }
+    }
+
+
+    &__title{
+        font-size: 22px;
+        font-weight: 700;
+    }
+
+    &__text{
+        @include font-text;
+        color: $paragraphDark;
+    }
+
+    &__number{
+        background-color: $redBrand;
+        width: 56px;
+        height: 56px;
+        border-radius: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: #fff;
+        font-size: 26px;
+    }
+
+    &__btn{
+        display: none;
+    }
+}
+
