@@ -21,6 +21,10 @@
 
     &__btn{
         @include button-phone;
+        
+        &:hover{
+            @include hover-btn;
+        }
     }
 
     &__cards{

@@ -29,6 +29,10 @@
 
     &__btn{
         @include button-phone;
+
+        &:hover{
+            @include hover-btn;
+        }
     }
 }
 
@@ -51,5 +55,9 @@
 
     &__btn{
         @include button-phone;
+
+        &:hover{
+            @include hover-btn;
+        }
     }
 }

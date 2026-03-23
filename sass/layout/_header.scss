@@ -10,11 +10,34 @@ header{
     align-items: center;
     padding-top: 42px;
 
-    &__nav--hidden{
+    &__nav{
         display: none;
+
+       
     }
 
     &__icons{
         gap: 30px;
     }
+}
+
+
+ @media (min-width: 768px) and (max-width: 1023px){
+    .header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 42px;
+
+    &__nav{
+        display: flex;
+        gap: 62px;
+        color: #fff;
+        text-decoration: none;
+    }
+
+    &__icons{
+        gap: 30px;
+    }
+}
 }

@@ -20,3 +20,7 @@
 @mixin border-radius-img{
     border-radius: 15px;
 }
+
+@mixin hover-btn{
+    background-color: rgb(101, 13, 28);
+}
