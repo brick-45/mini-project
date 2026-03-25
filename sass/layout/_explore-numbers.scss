@@ -19,14 +19,16 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        padding: 15px;
-        gap: 14px;
+        gap: 10px;
 
         i{
             color: rgba(2, 11, 32, 1);
         }
     }
 
+    &__img--phone{
+        margin-bottom: 16px;
+    }
 
     &__img--tablet{
         display: none;

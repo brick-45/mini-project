@@ -44,3 +44,25 @@ header {
     }
   }
 }
+
+
+
+@media (min-width: 1024px) {
+  .header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 42px;
+
+    &__icons {
+      gap: 30px;
+    }
+
+    &__nav{
+        a{
+          font-size: 18px;
+          margin-inline: 12px;
+        }
+    }
+  }
+}

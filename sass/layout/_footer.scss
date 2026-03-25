@@ -38,3 +38,11 @@
         padding-inline: 36px;
     }
 }
+
+@media (min-width: 768px) {
+    .footer{
+        &__iconsBlock{
+            padding-inline: 150px;
+        }
+    }
+}
