@@ -11,12 +11,13 @@
 }
 
 .stepBystep{
-
     &__ul{
         list-style: none;
         display: flex;
         flex-direction: column;
         margin-top: 45px;
+        align-items: center;
+        justify-content: center;
     }
 
     &__li{
@@ -63,6 +64,19 @@
 
     &__btn{
         display: none;
+    }
+}
+
+
+@media (min-width: 768px){
+    .stepBystep{
+        &__btn{
+            display: block;
+            width: 210px;
+            height: 64px;
+            @include button-phone;
+            margin-top: 28px;
+        }
     }
 }
 

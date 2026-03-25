@@ -48,3 +48,45 @@
         @include font-text;
     }
 }
+
+
+@media (min-width: 768px) {
+
+    .life{
+        &__video{
+            width: 565px;
+        }
+    }
+
+    .minivideo{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-top: 42px;
+
+    &__block{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 40px;
+    }
+
+    &__video{
+        width: 234px;
+    }
+
+    &__paragraph{
+        gap: 20px;
+        text-align: start;
+    }
+
+    &__title{
+        font-size: 24px;
+        font-weight: 700;
+    }
+
+    &__text{
+        @include font-text;
+    }
+}
+}

@@ -20,7 +20,7 @@
         justify-content: center;
         align-items: center;
         padding: 15px;
-        gap: 15px;
+        gap: 14px;
 
         i{
             color: rgba(2, 11, 32, 1);
@@ -46,6 +46,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     padding-inline: 32px;
     padding-block: 72px;
     gap: 70px;
@@ -55,8 +56,6 @@
 
     &__title{
         @include font-title;
-        width: 195px;
-        margin-inline: 10%;
     }
 
     &__text{
@@ -75,5 +74,15 @@
     &__text{
         @include font-text;
         color: $lightText;
+    }
+}
+
+
+@media (min-width: 768px) {
+    .explore{
+        &__img--tablet {
+            display: block;
+
+        }
     }
 }

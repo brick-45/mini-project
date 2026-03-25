@@ -12,16 +12,12 @@
         text-transform: uppercase;
         color: #fff;
         width: 314px;
-
-        @media (min-width: 768px) and (max-width: 1023px){
-            font-size: 95px;
-            color: #000;
-        }
+        padding-bottom: 12px
     }
 
     &__btn{
         @include button-phone;
-        
+
         &:hover{
             @include hover-btn;
         }
@@ -61,3 +57,10 @@
 }
 
 
+@media (min-width: 768px) {
+    .hero{
+        &__btn{
+            width: 275px;
+        }
+    }
+}
