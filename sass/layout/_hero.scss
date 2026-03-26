@@ -64,6 +64,12 @@
         &__btn{
             width: 275px;
         }
+
+        &__cards{
+            width: 100%;
+            margin-top: 120px;
+            padding-inline: 30;
+        }
     }
 }
 
@@ -89,12 +95,14 @@
             overflow: visible;
             align-items: center;
             margin-top: 245px;
-
-            
+            flex-wrap: nowrap;
+            width: 100%;
             
         }
 
     }
+
+
 
     
 }

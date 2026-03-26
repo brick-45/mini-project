@@ -35,3 +35,17 @@
         background-position: start;
     }
 }
+
+@media (min-width: 1024px){
+    .map{
+        padding-block: 248px;
+
+        &__title{
+            width: 614px;
+        }
+
+        &__text {
+            width: 470px;
+        }
+    }
+}

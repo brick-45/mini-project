@@ -90,3 +90,13 @@
     }
 }
 }
+
+@media (min-width: 1024px) {
+    
+
+    .minivideo{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}

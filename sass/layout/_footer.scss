@@ -46,3 +46,14 @@
         }
     }
 }
+
+@media (min-width: 1024px){
+     .footer{
+        flex-direction: row;
+
+        &__info{
+            flex-direction: row;
+            flex-wrap: nowrap;
+        }
+     }
+}

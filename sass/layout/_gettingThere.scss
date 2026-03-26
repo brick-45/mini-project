@@ -80,3 +80,34 @@
     }
 }
 
+@media (min-width: 1024px) {
+    .gettingThere{
+        justify-content: center;
+        align-items: center;
+        padding-block: 120px;
+        text-align: start;
+
+        &__title{
+            padding-left: 62px;
+        }
+    }
+
+    .stepBystep{
+        &__ul{
+            display: flex;
+            align-items: flex-start;
+        }
+
+        &__li{
+            flex-direction: row;
+            gap: 44px;
+            align-items: flex-start;
+        }
+
+        &__paragraph{
+            width: 1059px;
+            
+        }
+    }
+}
+

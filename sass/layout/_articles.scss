@@ -85,3 +85,51 @@
         }
     }
 }
+
+@media (min-width: 1024px) {
+
+    .articles{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding-block: 205px;
+        gap: 119px;
+    }
+
+    .walkway{
+        display: flex;
+        flex-direction: row;
+        gap: 130px;
+
+        &__title{
+            font-size: 42px;
+        }
+
+        &__paragraph{
+            gap: 20px;
+        }
+
+        &__btn{
+            margin-top: 32px;
+        }
+    }
+
+    .beach{
+        display: flex;
+        flex-direction: row-reverse;
+        gap: 130px;
+
+        &__title{
+            font-size: 42px;
+        }
+
+        &__paragraph{
+            gap: 20px;
+        }
+
+        &__btn{
+            margin-top: 32px;
+        }
+    }
+}
