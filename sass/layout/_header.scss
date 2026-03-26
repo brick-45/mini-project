@@ -1,6 +1,5 @@
 header {
   background-image: url("../src/img/heroBackground.webp");
-  background-position: center;
   background-size: cover;
 }
 
@@ -60,7 +59,7 @@ header {
 
     &__nav{
         a{
-          font-size: 18px;
+          font-size: 16px;
           margin-inline: 12px;
         }
     }
