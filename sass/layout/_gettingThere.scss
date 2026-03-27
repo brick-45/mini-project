@@ -62,11 +62,11 @@
         justify-content: center;
         color: #fff;
         font-size: 26px;
-        transform: translate(0, 0);
-        transition: transform 0.3s ease;
+        transform: scale(1);
+        transition: transform 200ms ease;
 
         &:hover{
-             transform: translateY(-10px);
+            transform: scale(1.2);
         }
     }
 

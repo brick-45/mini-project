@@ -20,6 +20,7 @@
 
     &__btn{
         @include button-phone;
+        width: 100%;
 
         &:hover{
             @include hover-btn;
@@ -43,6 +44,10 @@
 
         &__title{
             width: 614px;
+        }
+
+        &__btn{
+            width: 210px;
         }
 
         &__text {

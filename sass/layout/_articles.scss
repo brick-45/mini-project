@@ -29,6 +29,7 @@
 
     &__btn{
         @include button-phone;
+        width: 100%;
 
         &:hover{
             @include hover-btn;
@@ -55,6 +56,7 @@
 
     &__btn{
         @include button-phone;
+        width: 100%;
 
         &:hover{
             @include hover-btn;

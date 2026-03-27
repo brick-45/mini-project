@@ -17,6 +17,7 @@
 
     &__btn{
         @include button-phone;
+        width: 100%;
 
         &:hover{
             @include hover-btn;
@@ -71,12 +72,16 @@
             padding-inline: 30;
             justify-content: center;
             align-items: center;
-            text-align: center;
+            text-align: start;
 
             img{
                 width: 80%;
             }
         }
+    }
+
+    .card{
+        width: 614px;
     }
 }
 

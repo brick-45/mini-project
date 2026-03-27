@@ -1,6 +1,6 @@
 .container{
   width: 100%;
-  padding: 0 30px;
+  padding: 0 45px;
   margin: 0 auto;
 
   &--header{
@@ -14,6 +14,11 @@
     justify-content: center;
     align-items: center;
     gap: 32px;
+    padding-inline: 32px;
+  }
+
+  &--numbers{
+   margin: 0;
   }
 }
 
@@ -31,6 +36,10 @@ body{
         width: 100%;
         padding: 0 30px;
         margin: 0 auto;
+      }
+
+      &--numbers{
+        margin: 0 ;
       }
     }
 }
