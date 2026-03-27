@@ -25,6 +25,11 @@ body {
     margin: 0 100%;
     width: 100%;
   }
+  .container--header {
+    width: 100%;
+    padding: 0 30px;
+    margin: 0 auto;
+  }
 }
 header {
   background-image: url("../src/img/heroBackground.webp");
@@ -170,6 +175,14 @@ header {
     margin-top: 245px;
     flex-wrap: nowrap;
     width: 100%;
+    gap: 145px;
+    justify-content: flex-end;
+  }
+  .hero img {
+    width: 417.22px;
+  }
+  .card {
+    width: 250px;
   }
 }
 .articles {
@@ -871,7 +884,9 @@ header {
 }
 @media (min-width: 1024px) {
   .footer {
+    display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
   }
   .footer__info {
     flex-direction: row;
@@ -879,6 +894,9 @@ header {
   }
 }
 .logo {
+  width: 170px;
+}
+.logo--red {
   width: 170px;
 }
 
