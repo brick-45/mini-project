@@ -92,6 +92,10 @@
 }
 
 @media (min-width: 768px) {
+  .photoGallery{
+    padding-block: 106px;
+  }
+
   .photos {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -168,8 +172,16 @@
 }
 
 @media (min-width: 1024px) {
+  .photoGallery{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 500px;
+    padding-block: 120px;
+  }
+
   .photos {
-    width: 100%;
+    width: 934px;
     
     &__img--1 {
       grid-area: 1 / 1 / 2 / 2;

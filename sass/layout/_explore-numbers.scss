@@ -55,6 +55,10 @@
     background-color: rgba(2, 12, 33, 90%);
     color: #fff;
 
+    > .container{
+        width: 1024px;
+    }
+
     &__title{
         @include font-title;
     }
@@ -81,9 +85,11 @@
 
 @media (min-width: 768px) {
     .explore{
+    gap: 34px;
+    padding-block: 68px;
+
         &__img--tablet {
             display: block;
-
         }
     }
 }

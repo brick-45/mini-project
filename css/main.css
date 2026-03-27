@@ -151,6 +151,12 @@ header {
     width: 100%;
     margin-top: 120px;
     padding-inline: 30;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .hero__cards img {
+    width: 80%;
   }
 }
 @media (min-width: 1024px) {
@@ -252,6 +258,9 @@ header {
 }
 
 @media (min-width: 768px) {
+  .articles {
+    padding-block: 164px;
+  }
   .walkway {
     display: flex;
     justify-content: center;
@@ -355,6 +364,9 @@ header {
   background-color: rgba(2, 12, 33, 0.9);
   color: #fff;
 }
+.numbers > .container {
+  width: 1024px;
+}
 .numbers__title {
   font-size: 40px;
   font-weight: 700;
@@ -379,6 +391,10 @@ header {
 }
 
 @media (min-width: 768px) {
+  .explore {
+    gap: 34px;
+    padding-block: 68px;
+  }
   .explore__img--tablet {
     display: block;
   }
@@ -443,6 +459,7 @@ header {
   .map {
     background-image: url("../src/img/mapBackground.webp");
     background-position: start;
+    padding-inline: 36px;
   }
 }
 @media (min-width: 1024px) {
@@ -623,6 +640,9 @@ header {
 }
 
 @media (min-width: 768px) {
+  .photoGallery {
+    padding-block: 106px;
+  }
   .photos {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -686,8 +706,15 @@ header {
   }
 }
 @media (min-width: 1024px) {
+  .photoGallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 500px;
+    padding-block: 120px;
+  }
   .photos {
-    width: 100%;
+    width: 934px;
   }
   .photos__img--1 {
     grid-area: 1/1/2/2;
@@ -763,6 +790,7 @@ header {
   margin-top: 45px;
   align-items: center;
   justify-content: center;
+  margin-right: 20px;
 }
 .stepBystep__li {
   display: flex;
@@ -799,12 +827,20 @@ header {
   justify-content: center;
   color: #fff;
   font-size: 26px;
+  transform: translate(0, 0);
+  transition: transform 0.3s ease;
+}
+.stepBystep__number:hover {
+  transform: translateY(-10px);
 }
 .stepBystep__btn {
   display: none;
 }
 
 @media (min-width: 768px) {
+  .gettingThere {
+    padding-block: 68px;
+  }
   .stepBystep__btn {
     display: block;
     width: 210px;
@@ -816,6 +852,9 @@ header {
     height: 50px;
     width: 315px;
     margin-top: 28px;
+  }
+  .stepBystep__btn :hover {
+    background-color: rgb(101, 13, 28);
   }
 }
 @media (min-width: 1024px) {
@@ -840,6 +879,9 @@ header {
   .stepBystep__paragraph {
     width: 1059px;
   }
+  .stepBystep__btn :hover {
+    background-color: rgb(101, 13, 28);
+  }
 }
 .footer {
   display: flex;
@@ -859,10 +901,18 @@ header {
   gap: 36px;
   margin-top: 36px;
 }
+.footer__block {
+  display: flex;
+  flex-direction: column;
+  gap: 36px;
+}
 .footer__infoItem {
   color: #fff;
   font-size: 22px;
   font-weight: 700;
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
 }
 .footer__infoItem a {
   color: #fff;
@@ -887,10 +937,26 @@ header {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    justify-content: center;
   }
   .footer__info {
     flex-direction: row;
     flex-wrap: nowrap;
+    align-items: center;
+    text-wrap: nowrap;
+    margin-left: -250px;
+  }
+  .footer__block {
+    flex-direction: row;
+    margin-right: 25%;
+    align-items: center;
+  }
+  .footer__infoItem {
+    flex-direction: row;
+  }
+  .footer__iconsBlock {
+    gap: 22px;
+    padding-inline: 0;
   }
 }
 .logo {
@@ -912,6 +978,11 @@ img {
   position: relative;
   left: 135px;
   top: 100px;
+  transform: translate(0, 0);
+  transition: transform 0.3s ease;
+}
+.redArrow:hover {
+  transform: translateY(-25px);
 }
 
 @media (min-width: 768px) {
@@ -919,5 +990,11 @@ img {
     position: relative;
     left: 341px;
     top: 100px;
+  }
+}
+@media (min-width: 1024px) {
+  .redArrow {
+    left: 784px;
+    top: 200px;
   }
 }

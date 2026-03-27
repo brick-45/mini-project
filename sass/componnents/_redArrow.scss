@@ -2,7 +2,16 @@
     position: relative;
     left: 135px;
     top: 100px;
+    transform: translate(0, 0);
+    transition: transform 0.3s ease;
+
+    &:hover{
+        transform: translateY(-25px);
+
+    }
 }
+
+
 
 
 @media (min-width: 768px) {
@@ -11,4 +20,11 @@
         left: 341px;
         top: 100px;
 }
+}
+
+@media (min-width: 1024px) {
+    .redArrow{
+        left: 784px;
+        top: 200px;
+    }
 }

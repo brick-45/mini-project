@@ -4,6 +4,7 @@
     text-align: center;
     background-color: rgba(220, 232, 242, 1);
     padding-block: 30px;
+    
 
     &__title{
         @include font-title;
@@ -18,6 +19,7 @@
         margin-top: 45px;
         align-items: center;
         justify-content: center;
+        margin-right: 20px;
     }
 
     &__li{
@@ -60,15 +62,26 @@
         justify-content: center;
         color: #fff;
         font-size: 26px;
+        transform: translate(0, 0);
+        transition: transform 0.3s ease;
+
+        &:hover{
+             transform: translateY(-10px);
+        }
     }
 
     &__btn{
         display: none;
+
+        
     }
 }
 
 
 @media (min-width: 768px){
+    .gettingThere{
+        padding-block: 68px;
+    }
     .stepBystep{
         &__btn{
             display: block;
@@ -76,6 +89,10 @@
             height: 64px;
             @include button-phone;
             margin-top: 28px;
+
+            :hover{
+            @include hover-btn;
+        }
         }
     }
 }
@@ -107,6 +124,12 @@
         &__paragraph{
             width: 1059px;
             
+        }
+
+        &__btn{
+            :hover{
+            @include hover-btn;
+        }
         }
     }
 }
